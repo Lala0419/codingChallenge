@@ -28,3 +28,4 @@ reverseArray(9238,[8,3,2,9])//should return [8,3,2,9]
 console.log(reverseArray(330),[0,3,3])//should return [8,3,2,9]
 
 //can't do it this way. have to use map. aghhh
+
