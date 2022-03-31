@@ -67,3 +67,19 @@ function numInArray(arr,num){
 
  //didnt work.. wanted to see if forEach would work but i guess not.. inculdes will work easier anyway
 
+
+ //4th attempt 
+
+ function numInArray(arr,num){
+     // look through the arr and see if there are any elements match with num
+     
+    return arr.includes(num)
+
+     // conditional: if they do, return true. else return false.
+ }
+
+ numInArray([1,2,3],4) // should return false
+ numInArray([7,6,5],6) // sshould return true
+ numInArray([],5) //should return false
+
+//solution ^^
