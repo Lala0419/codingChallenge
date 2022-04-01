@@ -96,4 +96,4 @@ function numInArray(arr,num){
 
  numInArray([1,2,3],3)
 
- // holy cow you can do with filter method as well
+ // holy cow you can do with filter method as well !!!
