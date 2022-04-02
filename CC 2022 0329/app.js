@@ -84,6 +84,8 @@ function numInArray(arr,num){
 
 //solution ^^
 
+//another solution
+
 function numInArray(arr,num){
   
   const matchedNum = arr.filter(element=> element===num)
@@ -96,4 +98,25 @@ function numInArray(arr,num){
 
  numInArray([1,2,3],3)
 
- // holy cow you can do with filter method as well !!!
+ // holy cow you can do with filter method as well !!
+
+
+ //another solution!! forEach DID WORK!!
+
+ function numInArray(arr,num){
+  
+     let answer = false
+    
+     arr.forEach(element=> {
+       if(element===num){
+         answer=true
+       }}
+  )
+  
+  return answer
+  
+ }
+
+ numInArray([1,2,3],3)
+
+ //*** you dont wanna add else{} because if the num =1,2 but not 3, then the true statement will be overwritten. in this case only num =3 will give us true */
