@@ -32,4 +32,3 @@ doubled([1,2,3])
 console.log(doubled([2,3,4]),[4,6,8]) 
 //(doubled ([arguments=answers]),[the answers you supposte get])
 
-//modified
