@@ -83,3 +83,17 @@ function numInArray(arr,num){
  numInArray([],5) //should return false
 
 //solution ^^
+
+function numInArray(arr,num){
+  
+  const matchedNum = arr.filter(element=> element===num)
+   
+  //matchedNum[] will be an empty array if not elements match
+  
+  return matchedNum.length >=1
+  
+ }
+
+ numInArray([1,2,3],3)
+
+ // holy cow you can do with filter method as well
