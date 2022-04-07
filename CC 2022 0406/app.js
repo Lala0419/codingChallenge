@@ -24,8 +24,18 @@ function reverseArray(num){
 
 }
 
-reverseArray(9238,[8,3,2,9])//should return [8,3,2,9]
+reverseArray(9238)//should return [8,3,2,9]
 console.log(reverseArray(330),[0,3,3])//should return [8,3,2,9]
 
 //can't do it this way. have to use map. aghhh
 
+
+function reverseArray(num){
+     //make number a string and split that bebe
+    let numArray= num.toString().split('').reverse()
+
+    //reverse array
+    //make array integers again
+    return numArray.map(e=>parseInt(e))
+   
+}
