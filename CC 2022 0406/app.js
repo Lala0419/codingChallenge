@@ -44,3 +44,9 @@ function reverseArray(num){
 }
 
 //just needed to use map through and make each string element into an integer.
+
+
+//best solution from codewar
+function digitize(n) {
+  return String(n).split('').map(Number).reverse()
+}
