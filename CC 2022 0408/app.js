@@ -33,11 +33,6 @@ compare([5,5,5,5,5]) //true
 
 betterThanAverage([5,5,5,5,5],[6])
 
-//best solution 
-
-function betterThanAverage(classPoints, yourPoints) {
-  return yourPoints > classPoints.reduce((a, b) => a + b, 0) / classPoints.length; 
-}
 
 
 //3rd attempt!!!
@@ -60,3 +55,10 @@ betterThanAverage([5,5,5,5,5],6)
 
 
 ///lets ggooooooooo
+
+
+//best solution 
+
+function betterThanAverage(classPoints, yourPoints) {
+  return yourPoints > classPoints.reduce((a, b) => a + b, 0) / classPoints.length;
+}
