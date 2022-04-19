@@ -72,6 +72,9 @@ squareOrNot([4,3,9,7,2,1]) //[ 2, 9, 3, 49, 4, 1 ]
 
 
 
+
+
+
 // the best solution 
 
 function squareOrSquareRoot(array) {
@@ -83,4 +86,5 @@ function squareOrSquareRoot(array) {
 
 
 // genius
+
 
