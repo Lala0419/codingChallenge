@@ -6,25 +6,25 @@
 // Examples
 
 
-// 'a' and 'g' returns 1
-name1.toLowerCase()===name2.toLowerCase()
-return 1
+// // 'a' and 'g' returns 1
+// name1.toLowerCase()===name2.toLowerCase()
+// return 1
 
-// 'A' and 'C' returns 1
+// // 'A' and 'C' returns 1
 
-name1.toUpperCase()===name2.toUpperCase()
-return 1
+// name1.toUpperCase()===name2.toUpperCase()
+// return 1
 
-// 'b' and 'G' returns 0
+// // 'b' and 'G' returns 0
 
-name1.toLowerCase()===name2.toUpperCase()
-return 0
+// name1.toLowerCase()===name2.toUpperCase()
+// return 0
 
-// 'B' and 'g' returns 0
+// // 'B' and 'g' returns 0
 
-// '0' and '?' returns -1
-Number(name1) || Number(name2)
-return -1
+// // '0' and '?' returns -1
+// Number(name1) || Number(name2)
+// return -1
 
 
 //1st attempt 
@@ -45,25 +45,25 @@ function CheckSameCase(name1,name2){
 
 //you are suppose to do..
 
-// 'a' and 'g' returns 1
-name1.toLowerCase()&&name2.toLowerCase()
-return 1
+// // 'a' and 'g' returns 1
+// name1.toLowerCase()&&name2.toLowerCase()
+// return 1
 
-// 'A' and 'C' returns 1
+// // 'A' and 'C' returns 1
 
-name1.toUpperCase()&&name2.toUpperCase()
-return 1
+// name1.toUpperCase()&&name2.toUpperCase()
+// return 1
 
-// 'b' and 'G' returns 0
+// // 'b' and 'G' returns 0
 
-name1.toLowerCase()&&name2.toUpperCase()
-return 0
+// name1.toLowerCase()&&name2.toUpperCase()
+// return 0
 
-// 'B' and 'g' returns 0
+// // 'B' and 'g' returns 0
 
-// '0' and '?' returns -1
-Number(name1) || Number(name2)
-return -1
+// // '0' and '?' returns -1
+// Number(name1) || Number(name2)
+// return -1
 
 //this more make sence except im not sure about the last one..
 
