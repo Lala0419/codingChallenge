@@ -6,9 +6,9 @@ function noSpace(x){
   return x.replace(/\s/g, '');
 }
 
-found this solution on google
+//found this solution on google
 
-my way
+//my way
 
 function noSpace(x){
     return x.split(' ').join('')
