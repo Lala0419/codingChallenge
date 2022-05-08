@@ -14,3 +14,5 @@ console.log(arr(['hello', 'world', 'this', 'is', 'great'])) //hello world this i
 
 
 //first tryyyyy
+
+// it was easy because it was already an arry and did not need to convert from a string
