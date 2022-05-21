@@ -54,7 +54,7 @@ let newV = []  // because forloop doesnt create a new array, you HAVE to make an
 // 	   1.4142135623730951
 //	   1
 
-		if(Number.isInteger(square)){ // this was what was killing me to figure this out... if a number is an integr after you did Math.sqrt() (found the square roots is a whole number.)
+		if(Number.isInteger(square)){ // this was what was killing me to figure out... if a number is an integr after you did Math.sqrt() (found the square roots is a whole number.)
   	newV.push(square) // add that whole number to a new array, newV, I made before the loop began.
 		} else {
   	newV.push(Math.pow(initial,2)) //or else (if the nuber was not a whole number) make the initial (which is an element in an array)
